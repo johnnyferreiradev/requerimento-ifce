@@ -1,0 +1,78 @@
+.content .student-info .course {
+    width: 100%;
+    background-color: #ededed;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .student-info .course label {
+    display: flex;
+    border-bottom: 1px solid #222;
+}
+
+.content .student-info .course label:last-child {
+    border-bottom: none;
+}
+
+.content .student-info .course label[for=course-name],
+.content .student-info .course label[for=phone],
+.content .student-info .course label[for=email]  {
+    width: 49.90%;
+}
+
+.content .student-info .course label[for=phone] {
+    border-bottom: none;
+}
+
+.content .student-info .course label[for=email] {
+    border-left: 1px solid #222;
+}
+
+.content .student-info .course label[for=period],
+.content .student-info .course label[for=shift] {
+    width: 24.86%;
+    border-left: 1px solid #222;
+}
+
+.content .student-info .course label p {
+    width: 300px;
+    padding: 10px 0px;
+    border-right: 1px solid #222;
+    background-color: #ededed;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.content .student-info .course label input {
+    background-color: #ededed;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.content .student-info .course label[for=born-date],
+.content .student-info .course label[for=naturalness] {
+    width: 50%;
+}
+
+.content .student-info .course label[for=born-date] p,
+.content .student-info .course label[for=naturalness] p {
+    width: 446px;
+}
+
+.content .student-info .course label input[id=born-date],
+.content .student-info .course label input[id=naturalness] {
+    width: 100%;
+}
+
+.content .student-info .course {
+    width: 100%;
+}

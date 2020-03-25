@@ -25,6 +25,10 @@
     width: 100%;
 }
 
+.content .student-info .student label[for=naturalness] {
+    border-left: 1px solid #222;
+}
+
 .content .student-info .student label p {
     width: 300px;
     padding: 10px 0px;
@@ -47,7 +51,7 @@
 
 .content .student-info .student label[for=born-date],
 .content .student-info .student label[for=naturalness] {
-    width: 50%;
+    width: 49.90%;
 }
 
 .content .student-info .student label[for=born-date] p,
