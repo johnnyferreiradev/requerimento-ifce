@@ -1,0 +1,65 @@
+.content .student-info {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #222;
+}
+
+.content .student-info .student {
+    width: 100%;
+    border-bottom: 2px solid #222;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .student-info .student label {
+    display: flex;
+    border-bottom: 1px solid #222;
+}
+
+.content .student-info .student label[for=name],
+.content .student-info .student label[for=registration],
+.content .student-info .student label[for=affiliation] {
+    width: 100%;
+}
+
+.content .student-info .student label p {
+    width: 300px;
+    padding: 10px 0px;
+    border-right: 1px solid #222;
+    background-color: #ededed;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.content .student-info .student label input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.content .student-info .student label[for=born-date],
+.content .student-info .student label[for=naturalness] {
+    width: 50%;
+}
+
+.content .student-info .student label[for=born-date] p,
+.content .student-info .student label[for=naturalness] p {
+    width: 446px;
+}
+
+.content .student-info .student label input[id=born-date],
+.content .student-info .student label input[id=naturalness] {
+    width: 100%;
+}
+
+.content .student-info .course {
+    width: 100%;
+}

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/protocol.css">
+    <link rel="stylesheet" href="./assets/css/student-info.css">
     <title>Guia de Requerimento IFCE</title>
 </head>
 <body>
@@ -20,10 +21,40 @@
         </header>
         <main class="content">
             <div class="protocol">
-                <label for="">
+                <label for="protocol">
                     Protocolo Nº
-                    <input type="text" id="protocol">
+                    <input type="text" id="protocol" />
                 </label>
+            </div>
+
+            <div class="student-info">
+                <form class="student">
+                    <label for="name">
+                        <p>requerente</p>
+                        <input type="text" id="name" />
+                    </label>
+
+                    <label for="registration">
+                        <p>Nº de matricula:</p> 
+                        <input type="number" id="registration" />
+                    </label>
+
+                    <label for="born-date">
+                        <p>Data de nascimento:</p>
+                        <input type="text" id="born-date" placeholder="01/01/2001" />
+                    </label>
+
+                    <label for="naturalness">
+                        <p>Naturalidade:</p>
+                        <input type="text" id="naturalness" />
+                    </label>
+
+                    <label for="affiliation">
+                        <p>Filiação:</p>
+                        <input type="text" id="affiliation" />
+                    </label>
+                </form>
+                <div class="course">Course info</div>
             </div>
         </main>
     </div>
