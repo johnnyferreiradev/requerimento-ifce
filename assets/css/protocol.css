@@ -1,0 +1,28 @@
+.content {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content .protocol {
+    width: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .protocol label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .protocol label input {
+    padding: 10px 15px;
+    border: 1px solid #222;
+    background-color: #ededed;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
